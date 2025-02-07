@@ -1,1 +1,5 @@
-spring.application.name=deteccion-fraude
+spring:
+  application:
+    name: "deteccion-fraude"
+server:
+  port: 8081

@@ -1,1 +1,5 @@
-spring.application.name=reclamo-seguros
+spring:
+  application:
+    name: "reclamo-seguros"
+server:
+  port: 8083

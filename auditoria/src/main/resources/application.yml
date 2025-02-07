@@ -1,2 +1,5 @@
-spring.application.name=auditoria
-server.port=8080
+spring:
+  application:
+    name: "auditoria"
+server:
+  port: 8080

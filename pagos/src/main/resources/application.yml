@@ -1,1 +1,5 @@
-spring.application.name=pagos
+spring:
+  application:
+    name: "pagos"
+server:
+  port: 8082
