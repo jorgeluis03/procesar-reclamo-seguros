@@ -6,13 +6,22 @@
 		<groupId>org.springframework.boot</groupId>
 		<artifactId>spring-boot-starter-parent</artifactId>
 		<version>3.4.2</version>
-		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>com.seguro</groupId>
 	<artifactId>procesar-reclamo-seguros</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<name>procesar-reclamo-seguros</name>
 	<description>Procesar Reclamo de seguros</description>
+	<packaging>pom</packaging>
+
+	<modules>
+		<module>auditoria</module>
+		<module>deteccion-fraude</module>
+		<module>pagos</module>
+		<module>reclamo-seguros</module>
+		<module>validacion-poliza</module>
+	</modules>
+
 	<url/>
 	<licenses>
 		<license/>
