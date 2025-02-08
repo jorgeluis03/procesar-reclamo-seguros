@@ -1,5 +1,23 @@
 spring:
   application:
     name: "reclamo-seguros"
+  #Configuracion de Acceso a Base Datos
+  datasource:
+    url: jdbc:postgresql://localhost:5433/bd_reclamos
+    username: usuario_reclamos
+    password: clave_reclamos
+    driver-class-name: org.postgresql.Driver
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+
+  # Configuración de Kafka
+  kafka:
+    bootstrap-servers: localhost:9092
+    topic:
+      reclamos: "reclamos-seguros"
+
+#Server
 server:
   port: 8083
